@@ -4,7 +4,7 @@
 
 
 # DARKHARVEST
-DARKHARVEST is a **C2** tool meant to ease administration and cleanup on pentests.
+DARKHARVEST is a work-in-progress **C2** tool meant to ease administration and cleanup on pentests.
 
 **I don't assume any responsability for the use of this tool**
 
