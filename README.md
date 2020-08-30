@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/license-GPLv3-blue)](https://img.shields.io/badge/license-GPLv3-blue)
+[![](https://img.shields.io/badge/license-MIT-blue)]
 [![](https://img.shields.io/badge/language-Python3-red)](https://img.shields.io/badge/language-Python3-red)
 
 
@@ -9,7 +9,16 @@ DARKHARVEST is a **C2** tool meant to ease administration and cleanup on pentest
 **I don't assume any responsability for the use of this tool**
 
 DARKHARVEST will eventually offer an interactive shell to execute commands on infected hosts.
-## Tools
+
+# Disclaimer
+This tool is currently not functional as intended. Authentication works via user registration.
+The dashboard and interactive space requires authentication. 
+
+Ideally, the API that will receive connections and display them will be token protected. 
+
+Roadmap will be incorporated soon.
+
+# Preview
 <p align="center">
 <img align="center" src="cmd.png" width="600">
 </p>
