@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Dashboard</h1>
+          <p class="lead">11 active connections - 1 pending</p>
+        </div>
+      </div>
+
+
+</br>
+    {% for shell in shells %}
+    <table class="table table-hover table-dark">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">IP</th>
+                <th scope="col">OS</th>
+                <th scope="col">Privilege</th>
+                <th scope="col">Computer/User</th>
+                <th scope="col">Last Heartbeat</th>
+            <tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <th scope="row">{{ shell.id }}</th>
+                <td>{{ shell.ip }}</td>
+                <td>{{ shell.os }}</td>
+                <td>{{ shell.priv }}</td>
+                <td>{{ shell.compuser }}</td>
+                <td>{{ shell.heartbeat}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+    {% endfor %}
+    
+{% endblock %}
