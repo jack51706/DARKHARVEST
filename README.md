@@ -36,6 +36,8 @@ DARKHARVEST will eventually offer an interactive shell to execute commands on in
 
 7. Flask run
 
+** Warning ** Restart the venv after installing packages to avoid import errors.
+
 ## Usage
 
 DARKHARVEST will eventually receive heartbeats from the post-exploitation phase, and 
